@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4AEC2F8196E78F9002A587F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4AEC2F6196E78F9002A587F /* InfoPlist.strings */; };
+		A4AEC308196E79FF002A587F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AEC305196E79FF002A587F /* libWeChatSDK.a */; };
+		A4AEC30A196E7A2A002A587F /* ShareAllLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AEC2B2196E2B55002A587F /* ShareAllLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4AEC30F196E7A9F002A587F /* ShareAllLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AEC2B4196E2B55002A587F /* ShareAllLib.m */; };
+		A4AEC310196E7A9F002A587F /* ShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AEC2E4196E3119002A587F /* ShareWeChat.m */; };
+		A4AEC312196E7BD9002A587F /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AEC306196E79FF002A587F /* WXApi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A4AEC313196E7BD9002A587F /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AEC307196E79FF002A587F /* WXApiObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A4AEC314196E7BD9002A587F /* ShareWeChat.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AEC2E3196E3119002A587F /* ShareWeChat.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4AEC2AD196E2B55002A587F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4AEC2B1196E2B55002A587F /* ShareAllLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareAllLib-Prefix.pch"; sourceTree = "<group>"; };
+		A4AEC2B2196E2B55002A587F /* ShareAllLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareAllLib.h; sourceTree = "<group>"; };
+		A4AEC2B4196E2B55002A587F /* ShareAllLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareAllLib.m; sourceTree = "<group>"; };
+		A4AEC2BB196E2B55002A587F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4AEC2DB196E2C0D002A587F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4AEC2E3196E3119002A587F /* ShareWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWeChat.h; sourceTree = "<group>"; };
+		A4AEC2E4196E3119002A587F /* ShareWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWeChat.m; sourceTree = "<group>"; };
+		A4AEC2F0196E78F9002A587F /* ShareAllLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareAllLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AEC2F1196E78F9002A587F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A4AEC2F5196E78F9002A587F /* ShareAllLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareAllLib-Info.plist"; sourceTree = "<group>"; };
+		A4AEC2F7196E78F9002A587F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4AEC2F9196E78F9002A587F /* ShareAllLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareAllLib-Prefix.pch"; sourceTree = "<group>"; };
+		A4AEC305196E79FF002A587F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		A4AEC306196E79FF002A587F /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A4AEC307196E79FF002A587F /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AEC2ED196E78F9002A587F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AEC308196E79FF002A587F /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4AEC2A1196E2B55002A587F = {
+			isa = PBXGroup;
+			children = (
+				A4AEC304196E79FF002A587F /* weixinSDKExport */,
+				A4AEC2AF196E2B55002A587F /* ShareAllLib */,
+				A4AEC2F3196E78F9002A587F /* ShareAllLib */,
+				A4AEC2AC196E2B55002A587F /* Frameworks */,
+				A4AEC2AB196E2B55002A587F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4AEC2AB196E2B55002A587F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEC2F0196E78F9002A587F /* ShareAllLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AEC2AC196E2B55002A587F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEC2DB196E2C0D002A587F /* UIKit.framework */,
+				A4AEC2AD196E2B55002A587F /* Foundation.framework */,
+				A4AEC2BB196E2B55002A587F /* XCTest.framework */,
+				A4AEC2F1196E78F9002A587F /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4AEC2AF196E2B55002A587F /* ShareAllLib */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEC2B2196E2B55002A587F /* ShareAllLib.h */,
+				A4AEC2B4196E2B55002A587F /* ShareAllLib.m */,
+				A4AEC2E3196E3119002A587F /* ShareWeChat.h */,
+				A4AEC2E4196E3119002A587F /* ShareWeChat.m */,
+				A4AEC2B0196E2B55002A587F /* Supporting Files */,
+			);
+			path = ShareAllLib;
+			sourceTree = "<group>";
+		};
+		A4AEC2B0196E2B55002A587F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEC2B1196E2B55002A587F /* ShareAllLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4AEC2F3196E78F9002A587F /* ShareAllLib */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEC2F4196E78F9002A587F /* Supporting Files */,
+			);
+			path = ShareAllLib;
+			sourceTree = "<group>";
+		};
+		A4AEC2F4196E78F9002A587F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEC2F5196E78F9002A587F /* ShareAllLib-Info.plist */,
+				A4AEC2F6196E78F9002A587F /* InfoPlist.strings */,
+				A4AEC2F9196E78F9002A587F /* ShareAllLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4AEC304196E79FF002A587F /* weixinSDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEC305196E79FF002A587F /* libWeChatSDK.a */,
+				A4AEC306196E79FF002A587F /* WXApi.h */,
+				A4AEC307196E79FF002A587F /* WXApiObject.h */,
+			);
+			path = weixinSDKExport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4AEC309196E7A1C002A587F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AEC30A196E7A2A002A587F /* ShareAllLib.h in Headers */,
+				A4AEC312196E7BD9002A587F /* WXApi.h in Headers */,
+				A4AEC313196E7BD9002A587F /* WXApiObject.h in Headers */,
+				A4AEC314196E7BD9002A587F /* ShareWeChat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4AEC2EF196E78F9002A587F /* ShareAllLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AEC2FA196E78F9002A587F /* Build configuration list for PBXNativeTarget "ShareAllLib" */;
+			buildPhases = (
+				A4AEC2EC196E78F9002A587F /* Sources */,
+				A4AEC2ED196E78F9002A587F /* Frameworks */,
+				A4AEC2EE196E78F9002A587F /* Resources */,
+				A4AEC309196E7A1C002A587F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareAllLib;
+			productName = ShareAllLib;
+			productReference = A4AEC2F0196E78F9002A587F /* ShareAllLib.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4AEC2A2196E2B55002A587F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sun;
+			};
+			buildConfigurationList = A4AEC2A5196E2B55002A587F /* Build configuration list for PBXProject "ShareAllLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4AEC2A1196E2B55002A587F;
+			productRefGroup = A4AEC2AB196E2B55002A587F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4AEC2EF196E78F9002A587F /* ShareAllLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AEC2EE196E78F9002A587F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AEC2F8196E78F9002A587F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AEC2EC196E78F9002A587F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AEC30F196E7A9F002A587F /* ShareAllLib.m in Sources */,
+				A4AEC310196E7A9F002A587F /* ShareWeChat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4AEC2F6196E78F9002A587F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AEC2F7196E78F9002A587F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4AEC2CB196E2B55002A587F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4AEC2CC196E2B55002A587F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4AEC2FB196E78F9002A587F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareAllLib/ShareAllLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShareAllLib/ShareAllLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/weixinSDKExport",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A4AEC2FC196E78F9002A587F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareAllLib/ShareAllLib-Prefix.pch";
+				INFOPLIST_FILE = "ShareAllLib/ShareAllLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/weixinSDKExport",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4AEC2A5196E2B55002A587F /* Build configuration list for PBXProject "ShareAllLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AEC2CB196E2B55002A587F /* Debug */,
+				A4AEC2CC196E2B55002A587F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AEC2FA196E78F9002A587F /* Build configuration list for PBXNativeTarget "ShareAllLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AEC2FB196E78F9002A587F /* Debug */,
+				A4AEC2FC196E78F9002A587F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4AEC2A2196E2B55002A587F /* Project object */;
+}
